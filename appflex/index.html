@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<title>Calculadora Flex</title>
+	</head>
+	<body>
+		<div class="card" style="width: 25rem;">
+			<img src="neutro.png" alt="Calculadora Flex" id="status">
+			<div class="card-body">
+				<h5 class="card-title">Calculadora Flex</h5>
+				<form name="frmFlex">
+					<div class="form-group">
+						<label>Valor do Etanol:</label>
+						<input type="text" class="form-control" placeholder="Etanol" size="12" name="txtEtanol">
+						<label>Valor do Gasolina:</label>
+						<input type="text" class="form-control" placeholder="Gasolina" size="12" name="txtGasolina">
+						<br />
+						<input type="button" class="btn btn-primary" value="Vantagem" onclick="calcular()">
+						<input type="reset" class="btn btn-dark" value="Limpar" onclick="resetar()">
+					</div>
+				</form>
+			
+			</div>
+		</div>
+		
+		
+		
+		
+		<script src="calcflex.js"></script>
+		
+		
+	</body>
+</html>
